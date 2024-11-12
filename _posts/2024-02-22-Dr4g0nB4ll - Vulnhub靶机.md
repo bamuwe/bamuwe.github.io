@@ -1,7 +1,7 @@
 ---
-title: '{文件名}'
-date: 2024-11-11 13:00:00 +0800
-categories: [uaf,malloc_hook,unsortbin_leaklibc]
+title: 'Dr4g0nB4ll - Vulnhub靶机'
+date: 2024-02-22 18:00:00 +0800
+categories: []
 tags: [hack]
 ---
 ### 主机发现
