@@ -1,8 +1,8 @@
 ---
 title: '[BJDCTF 2020]YDSneedGirlfriend'
 date: 2024-04-23 13:00:00 +0800
-categories: [uaf]
-tags: [ctf,pwn]
+categories: [ctf,pwn]
+tags: [uaf]
 ---
 
 所谓UAF漏洞是指**程序在运行时通过悬空指针(悬空指针是指仍然指向已被释放内存空间的指针)访问已经被释放的内存**.
