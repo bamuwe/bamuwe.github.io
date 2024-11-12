@@ -1,14 +1,10 @@
 ---
-title: '{文件名}'
-date: 2024-11-11 13:00:00 +0800
-categories: [uaf,malloc_hook,unsortbin_leaklibc]
+title: 'PicoCTF_2018_rop_chain'
+date: 2023-12-30 13:00:00 +0800
+categories: ['函数参数劫持','整数型绕过','`\x00`绕过`len()`']
 tags: [ctf,pwn]
 ---
 <img src="../assets/img/old_imgs/image-20231223201523448.png" alt="image-20231223201523448" style="zoom:150%;" />
-
-- 函数参数劫持
-- 整数型绕过
-- `\x00`绕过`len()`
 
 1. 函数`vuln`中存在栈溢出
 
