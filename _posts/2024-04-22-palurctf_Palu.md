@@ -1,8 +1,8 @@
 ---
 title: 'palurctf_Palu'
 date: 2024-04-22 13:00:00 +0800
-categories: []
-tags: [ctf,pwn]
+categories: [ctf,pwn]
+tags:  []
 ---
 ```shell
 bamuwe@bamuwe:~/palu$ checksec Palu
