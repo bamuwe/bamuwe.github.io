@@ -1,18 +1,18 @@
 ---
-title: '{文件名}'
-date: 2024-11-11 13:00:00 +0800
-categories: [uaf,malloc_hook,unsortbin_leaklibc]
+title: '[GFCTF 2021]where_is_shell'
+date: 2024-03-16 13:00:00 +0800
+categories: [shell]
 tags: [ctf,pwn]
 ---
 - `shell`的特殊姿势
 
-![image-20240316122106483](C:\Users\qianenzhao\AppData\Roaming\Typora\typora-user-images\image-20240316122106483.png)
+![image-20240316122106483](../assets/img/old_imgs/image-20240316122106483.png)
 
 看上去很简单的栈溢出,但是问题在于找不到能用的`/bin/sh`或者`sh`
 
 这里出现了一个`shell`的新姿势:可以利用`system($0)`获得shell权限，`$0`在机器码中为 `\x24\x30`
 
-![image-20240316122245239](C:\Users\qianenzhao\AppData\Roaming\Typora\typora-user-images\image-20240316122245239.png)
+![image-20240316122245239](../assets/img/old_imgs/image-20240316122245239.png)
 
 在`tips`函数中正好有 `\x24\x30`可以用来构造,所以需要取出`0x400541`
 
