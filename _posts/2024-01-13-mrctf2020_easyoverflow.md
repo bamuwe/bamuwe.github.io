@@ -1,8 +1,8 @@
 ---
 title: 'mrctf2020_easyoverflow'
 date: 2024-01-13 13:00:00 +0800
-categories: [control]
-tags: [ctf,pwn]
+categories: [ctf,pwn]
+tags: [control]
 ---
 ![image-20240113121646708](../assets/img/old_imgs/image-20240113121646708.png)
 
