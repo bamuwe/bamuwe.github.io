@@ -1,7 +1,7 @@
 ---
-title: '{文件名}'
-date: 2024-11-11 13:00:00 +0800
-categories: [uaf,malloc_hook,unsortbin_leaklibc]
+title: 'palurctf_Palu'
+date: 2024-04-22 13:00:00 +0800
+categories: []
 tags: [ctf,pwn]
 ---
 ```shell
