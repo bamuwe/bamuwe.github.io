@@ -2,15 +2,15 @@
 title: '{文件名}'
 date: 2024-11-11 13:00:00 +0800
 categories: [uaf,malloc_hook,unsortbin_leaklibc]
-tags: [ctf,pwn]
+tags: [hack]
 ---
-###主机发现
+### 主机发现
 
 ```shell
 192.168.30.133
 ```
 
-###信息收集
+### 信息收集
 
 ```shell
 └─$ nmap -sV -A 192.168.30.133
@@ -35,7 +35,7 @@ Nmap done: 1 IP address (1 host up) scanned in 19.56 seconds
 
 查看80端口
 
-![image-20240222162800682](C:\Users\qianenzhao\AppData\Roaming\Typora\typora-user-images\image-20240222162800682.png)
+![image-20240222162800682](../assets/img/old_imgs/image-20240222162800682.png)
 
 浏览发现没有明显信息，同步目录爆破
 
@@ -84,7 +84,7 @@ Task Completed
 
 目录爆破无果，审计网站代码
 
-![image-20240222163252652](C:\Users\qianenzhao\AppData\Roaming\Typora\typora-user-images\image-20240222163252652.png)
+![image-20240222163252652](../assets/img/old_imgs/image-20240222163252652.png)
 
 查找子域名无果，但是发现在末尾注释中存在这样一段字符```VWtaS1FsSXdPVTlKUlVwQ1ZFVjNQUT09```
 
@@ -92,17 +92,17 @@ Task Completed
 
 利用这个字符串尝试访问网站目录
 
-![image-20240222163457164](C:\Users\qianenzhao\AppData\Roaming\Typora\typora-user-images\image-20240222163457164.png)
+![image-20240222163457164](../assets/img/old_imgs/image-20240222163457164.png)
 
-![image-20240222163544001](C:\Users\qianenzhao\AppData\Roaming\Typora\typora-user-images\image-20240222163544001.png)
+![image-20240222163544001](../assets/img/old_imgs/image-20240222163544001.png)
 
 > secret.txt页面
 
-![image-20240222164314069](C:\Users\qianenzhao\AppData\Roaming\Typora\typora-user-images\image-20240222164314069.png)
+![image-20240222164314069](../assets/img/old_imgs/image-20240222164314069.png)
 
 无法通过`submit`交互，也无法直接跳转，但是查看源代码可知这个链接打开的图片与先前发现的图片名字一致，尝试下载先前那张图片寻找突破
 
-![image-20240222164859400](C:\Users\qianenzhao\AppData\Roaming\Typora\typora-user-images\image-20240222164859400.png)
+![image-20240222164859400](../assets/img/old_imgs/image-20240222164859400.png)
 
 常规`binwalk`等尝试无果，尝试使用工具进行爆破
 
@@ -135,19 +135,19 @@ Bd8180GtBAAaGtiwAAAAlrYWxpQGthbGk=
 
 回头看发现在登陆页面上有一个疑似用户名的关键词
 
-![image-20240222180928831](C:\Users\qianenzhao\AppData\Roaming\Typora\typora-user-images\image-20240222180928831.png)
+![image-20240222180928831](../assets/img/old_imgs/image-20240222180928831.png)
 
 搜索发现`xmen`指的是X战警，很有可能就是用户名
 
 ###获得立足点
 
-![image-20240222181031980](C:\Users\qianenzhao\AppData\Roaming\Typora\typora-user-images\image-20240222181031980.png)
+![image-20240222181031980](../assets/img/old_imgs/image-20240222181031980.png)
 
 😘成功得到立足点~
 
 ps这里有个小细节,在利用密钥进行ssh登陆时,会对密钥文件有一个检测,如果该文件开放权限过高会拒绝我们的使用,如下:
 
-![image-20240222181148990](C:\Users\qianenzhao\AppData\Roaming\Typora\typora-user-images\image-20240222181148990.png)
+![image-20240222181148990](../assets/img/old_imgs/image-20240222181148990.png)
 
 解决办法就是更改该文件的权限:`chmod 600 filename`
 
