@@ -1,8 +1,8 @@
 ---
 title: '{PicoCTF_2018_buffer_overflow_1}'
 date: 2024-01-03 13:00:00 +0800
-categories: [ret2text]
-tags: [ctf,pwn]
+categories: [ctf,pwn]
+tags: [ret2text]
 ---
 ![image-20240103130117204](../assets/img/old_imgs/image-20240103130117204.png)
 
