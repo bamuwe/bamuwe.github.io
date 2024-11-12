@@ -157,7 +157,7 @@ def edit(idx,size,text):
 
 2. `show()`会调用`chunk1`中预存的`puts()`构造`puts(chunk2_addr)`实现打印输出
 
-   ![image-20240428143340351](../assets/img/old_imgs/mage-20240428143340351.png)
+   ![image-20240428143340351](../assets/img/old_imgs/image-20240428143340351.png)
 
 利用思路：
 
