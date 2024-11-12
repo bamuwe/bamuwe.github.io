@@ -1,8 +1,8 @@
 ---
 title: 'others_babystack'
 date: 2024-01-27 13:00:00 +0800
-categories: [uaf,malloc_hook,unsortbin_leaklibc]
-tags: [ctf,pwn]
+categories: [ctf,pwn]
+tags: [uaf,malloc_hook,unsortbin_leaklibc]
 ---
 - Canary 保护
 - 程序控制流
