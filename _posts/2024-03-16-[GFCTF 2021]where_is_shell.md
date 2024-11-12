@@ -1,8 +1,8 @@
 ---
 title: '[GFCTF 2021]where_is_shell'
 date: 2024-03-16 13:00:00 +0800
-categories: [shell]
-tags: [ctf,pwn]
+categories:  [ctf,pwn]
+tags: [shell]
 ---
 - `shell`的特殊姿势
 
