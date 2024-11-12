@@ -1,8 +1,8 @@
 ---
 title: 'hitcontraining_heapcreator'
 date: 2024-04-26 13:00:00 +0800
-categories: [uaf,off_by_one,heapoverflow]
-tags: [ctf,pwn]
+categories: [ctf,pwn]
+tags: [uaf,off_by_one,heapoverflow]
 ---
  [[BUUCTF](https://buuoj.cn/challenges#hitcontraining_heapcreator)]hitcontraining_heapcreator
 
