@@ -1,8 +1,8 @@
 ---
 title: 'bjdctf_2020_babyrop'
 date: 2024-12-30 13:00:00 +0800
-categories: [64bit,leak_libc]
-tags: [ctf,pwn]
+categories:  [ctf,pwn]
+tags: [64bit,leak_libc]
 ---
 ![image-20231229193724690](../assets/img/old_imgs/image-20231229193724690.png)
 
