@@ -1,10 +1,9 @@
 ---
-title: '{文件名}'
-date: 2024-11-11 13:00:00 +0800
-categories: [uaf,malloc_hook,unsortbin_leaklibc]
+title: '[GDOUCTF 2023] Shellcode'
+date: 2024-08-17 13:00:00 +0800
+categories: [ret2shellcode,shellcode]
 tags: [ctf,pwn]
 ---
-`ret2shellcode`|`shellcode`
 
 ```c
 int __fastcall main(int argc, const char **argv, const char **envp)
