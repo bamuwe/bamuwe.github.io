@@ -1,7 +1,7 @@
 ---
 title: '从Forest学习Windows下的渗透'
 date: 2024-11-07 13:00:00 +0800
-categories: [hack]
+categories: [hack,Htb]
 tags: [Windows,AD,Htb]
 ---
 # 从Forest学习Windows下的渗透
