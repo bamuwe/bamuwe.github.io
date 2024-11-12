@@ -1,8 +1,8 @@
 ---
 title: '[XYCTF] fastfastfast'
 date: 2024-08-17 13:00:00 +0800
-categories: [uaf,fast_bin_attack,tcache,leak_libc]
-tags: [ctf,pwn]
+categories: [ctf,pwn]
+tags: [uaf,fast_bin_attack,tcache,leak_libc]
 ---
 
 ```shell
