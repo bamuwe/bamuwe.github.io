@@ -1,8 +1,8 @@
 ---
 title: 'wustctf2020_getshell_2'
 date: 2024-01-06 13:00:00 +0800
-categories: [ROPgadgets,asm]
-tags: [ctf,pwn]
+categories: [ctf,pwn]
+tags: [ROPgadgets,asm]
 ---
 ![image-20240106214446580](../assets/img/old_imgs/image-20240106214446580.png)
 
