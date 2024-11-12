@@ -1,8 +1,8 @@
 ---
 title: 'gyctf_2020_borrowstack'
 date: 2024-10-06 13:00:00 +0800
-categories: [Stack_Pivoting,one_gadgets,64bit]
-tags: [ctf,pwn]
+categories: [ctf,pwn]
+tags: [Stack_Pivoting,one_gadgets,64bit]
 ---
 - 栈迁移
 - one-gadgets
