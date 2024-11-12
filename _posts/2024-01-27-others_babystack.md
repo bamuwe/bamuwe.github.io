@@ -1,6 +1,6 @@
 ---
-title: '{文件名}'
-date: 2024-11-11 13:00:00 +0800
+title: 'others_babystack'
+date: 2024-01-27 13:00:00 +0800
 categories: [uaf,malloc_hook,unsortbin_leaklibc]
 tags: [ctf,pwn]
 ---
