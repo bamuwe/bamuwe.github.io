@@ -1,8 +1,8 @@
 ---
 title: 'jarvisoj_level3_x64'
 date: 2023-12-31 13:00:00 +0800
-categories: [64bit,leak_libc]
-tags: [ctf,pwn]
+categories: [ctf,pwn]
+tags: [64bit,leak_libc]
 ---
 ![image-20231231181919311](../assets/img/old_imgs/image-20231231181919311.png)
 
