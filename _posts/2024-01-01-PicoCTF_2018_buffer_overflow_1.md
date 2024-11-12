@@ -1,7 +1,7 @@
 ---
-title: '{文件名}'
+title: '{PicoCTF_2018_buffer_overflow_1}'
 date: 2024-11-11 13:00:00 +0800
-categories: [uaf,malloc_hook,unsortbin_leaklibc]
+categories: [ret2text]
 tags: [ctf,pwn]
 ---
 ![image-20240103130117204](../assets/img/old_imgs/image-20240103130117204.png)
