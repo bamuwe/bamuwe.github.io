@@ -1,12 +1,12 @@
 ---
-title: '{文件名}'
+title: 'NSSCTF_pwn_刷题笔记page'
 date: 2024-11-11 13:00:00 +0800
-categories: [uaf,malloc_hook,unsortbin_leaklibc]
+categories: [合集]
 tags: [ctf,pwn]
 ---
-#NSSCTF_pwn_刷题笔记page(1)
+# NSSCTF_pwn_刷题笔记page(1)
 
-###[SWPUCTF 2021 新生赛]gift_pwn
+### [SWPUCTF 2021 新生赛]gift_pwn
 
 ```python
 from pwn import *
@@ -20,7 +20,7 @@ io.sendline(payload)
 io.interactive()
 ```
 
-###[SWPUCTF 2021 新生赛]whitegive_pwn
+### [SWPUCTF 2021 新生赛]whitegive_pwn
 
 ```python
 from pwn import *
