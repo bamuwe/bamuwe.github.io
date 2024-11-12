@@ -1,8 +1,8 @@
 ---
-title: '{文件名}'
-date: 2024-11-11 13:00:00 +0800
-categories: [uaf,malloc_hook,unsortbin_leaklibc]
-tags: [ctf,pwn]
+title: 'heackmyvmRegistry'
+date: 2024-11-07 13:00:00 +0800
+categories: []
+tags: [hack,pwn]
 ---
 ### program
 
