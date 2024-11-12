@@ -1,8 +1,8 @@
 ---
 title: '[HNCTF 2022 WEEK4]ezheap'
 date: 2024-04-28 13:00:00 +0800
-categories: [uaf,off_by_one,heapoverflow,leak_libc]
-tags: [ctf,pwn]
+categories: [ctf,pwn]
+tags: [uaf,off_by_one,heapoverflow,leak_libc]
 ---
  [[HNCTF 2022 WEEK4](https://www.nssctf.cn/problem/3104)]ezheap
 
