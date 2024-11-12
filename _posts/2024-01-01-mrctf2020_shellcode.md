@@ -1,8 +1,8 @@
 ---
 title: 'mrctf2020_shellcode'
 date: 2024-11-11 13:00:00 +0800
-categories: [pwntools,shellcode]
-tags: [ctf,pwn]
+categories: [ctf,pwn]
+tags: [pwntools,shellcode]
 ---
 ![image-20240101170437978](../assets/img/old_imgs/image-20240101170437978.png)
 
