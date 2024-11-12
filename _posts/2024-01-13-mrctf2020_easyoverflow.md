@@ -1,7 +1,7 @@
 ---
-title: '{文件名}'
-date: 2024-11-11 13:00:00 +0800
-categories: [uaf,malloc_hook,unsortbin_leaklibc]
+title: 'mrctf2020_easyoverflow'
+date: 2024-01-13 13:00:00 +0800
+categories: [control]
 tags: [ctf,pwn]
 ---
 ![image-20240113121646708](../assets/img/old_imgs/image-20240113121646708.png)
