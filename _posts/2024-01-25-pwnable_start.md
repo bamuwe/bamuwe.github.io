@@ -1,8 +1,8 @@
 ---
 title: 'pwnable_start'
 date: 2024-01-25 13:00:00 +0800
-categories: [uaf,malloc_hook,unsortbin_leaklibc]
-tags: [ctf,pwn]
+categories: [ctf,pwn]
+tags: [uaf,malloc_hook,unsortbin_leaklibc]
 ---
 - `bss`
 
