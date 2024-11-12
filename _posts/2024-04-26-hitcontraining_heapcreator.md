@@ -191,5 +191,5 @@ success(hex(free_addr))
 libc_base = free_addr-0x83a70	#0x83a70从何而来？
 ```
 
-![image-20240426172143920](./../../AppData/Roaming/Typora/typora-user-images/image-20240426172143920.png)
+![image-20240426172143920](../assets/img/old_imgs/image-20240426172143920.png)
 
