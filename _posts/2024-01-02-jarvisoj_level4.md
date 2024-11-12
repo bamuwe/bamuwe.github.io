@@ -1,8 +1,8 @@
 ---
 title: 'jarvisoj_level4'
 date: 2024-01-02 13:00:00 +0800
-categories: [32bit,ret2libc]
-tags: [ctf,pwn]
+categories: [ctf,pwn]
+tags: [32bit,ret2libc]
 ---
 ![image-20240102230647469](../assets/img/old_imgs/image-20240102230647469.png)
 
