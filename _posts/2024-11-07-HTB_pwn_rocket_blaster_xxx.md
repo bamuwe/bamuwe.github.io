@@ -1,7 +1,7 @@
 ---
-title: '{文件名}'
-date: 2024-11-11 13:00:00 +0800
-categories: [uaf,malloc_hook,unsortbin_leaklibc]
+title: 'HTB_pwn_rocket_blaster_xxx'
+date: 2024-11-07 13:00:00 +0800
+categories: []
 tags: [ctf,pwn]
 ---
 ```python
