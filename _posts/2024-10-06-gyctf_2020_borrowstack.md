@@ -1,7 +1,7 @@
 ---
-title: '{文件名}'
-date: 2024-11-11 13:00:00 +0800
-categories: [uaf,malloc_hook,unsortbin_leaklibc]
+title: 'gyctf_2020_borrowstack'
+date: 2024-10-06 13:00:00 +0800
+categories: [Stack_Pivoting,one_gadgets,64bit]
 tags: [ctf,pwn]
 ---
 - 栈迁移
