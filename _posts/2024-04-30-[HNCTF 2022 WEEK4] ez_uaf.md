@@ -1,6 +1,6 @@
 ---
 title: '[HNCTF 2022 WEEK4] ez_uaf'
-date: 2024-04-030 13:00:00 +0800
+date: 2024-04-03 13:00:00 +0800
 categories: [uaf,unsortedbin,leak_libc]
 tags: [ctf,pwn]
 ---
