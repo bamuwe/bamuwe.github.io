@@ -1,7 +1,7 @@
 ---
-title: '{文件名}'
-date: 2024-11-11 13:00:00 +0800
-categories: [uaf,malloc_hook,unsortbin_leaklibc]
+title: '[BJDCTF 2020]YDSneedGirlfriend'
+date: 2024-04-23 13:00:00 +0800
+categories: [uaf]
 tags: [ctf,pwn]
 ---
 
@@ -14,7 +14,7 @@ bamuwe@bamuwe:~/YDSneedGirlfriend$ ldd girlfriend
         /home/bamuwe/pwn_tools/glibc-all-in-one/libs/2.23-0ubuntu3_amd64/ld-2.23.so => /lib64/ld-linux-x86-64.so.2 (0x00007f415dfc3000)
 ```
 
-![image-20240423220900124](C:\Users\qianenzhao\AppData\Roaming\Typora\typora-user-images\image-20240423220753543.png)
+![image-20240423220900124](../assets/img/old_imgs/image-20240423220753543.png)
 
 ```c
 int backdoor()
@@ -110,7 +110,7 @@ unsigned __int64 del_girlfriend()
 
 > 没有清除指针
 
-![image-20240423222752483](C:\Users\qianenzhao\AppData\Roaming\Typora\typora-user-images\image-20240423222752483.png)
+![image-20240423222752483](../assets/img/old_imgs/image-20240423222752483.png)
 
 > Fastbin是glibc堆管理中的一种技术，用于加速小块堆内存的分配和释放。它适用于小于等于64字节的大小的堆块。
 >
