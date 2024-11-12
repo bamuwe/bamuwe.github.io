@@ -1,7 +1,7 @@
 ---
 title: 'Dr4g0nB4ll - Vulnhub靶机'
 date: 2024-02-22 18:00:00 +0800
-categories: [hack]
+categories: [hack,Vulnhub]
 tags: []
 ---
 ### 主机发现
