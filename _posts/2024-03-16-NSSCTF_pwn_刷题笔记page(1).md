@@ -1,8 +1,8 @@
 ---
 title: 'NSSCTF_pwn_刷题笔记page'
 date: 2024-03-16 13:00:00 +0800
-categories: [合集]
-tags: [ctf,pwn]
+categories: [ctf,pwn]
+tags: [合集]
 ---
 # NSSCTF_pwn_刷题笔记page(1)
 
