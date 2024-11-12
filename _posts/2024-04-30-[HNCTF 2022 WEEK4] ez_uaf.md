@@ -99,7 +99,7 @@ def edit(idx,content):
    one_gadgets_addr = 0x10a2fc+lib_offset			#后续利用
    ```
 
-   ![image-20240430195924018](./../../AppData/Roaming/Typora/typora-user-images/image-20240430195924018.png)
+   ![image-20240430195924018](../assets/img/old_imgs/image-20240430195924018.png)
 
 2. 释放`chunk1`并且修改`chunk1`的`fd`的地址为`__malloc_hook`的地址,制造`fake_chunk`
 
@@ -108,7 +108,7 @@ def edit(idx,content):
    edit(1,p64(malloc_hook_addr))       # 修改fd
    ```
 
-   ![image-20240430200315872](./../../AppData/Roaming/Typora/typora-user-images/image-20240430200315872.png)
+   ![image-20240430200315872](../assets/img/old_imgs/image-20240430200315872.png)
 
 3. 利用`fake_chunk`修改`__malloc_hook` 的内容为`one_gadget`,重新`add()`一个`chunk`得到`shell`
 
