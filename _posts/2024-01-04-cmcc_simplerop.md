@@ -1,8 +1,8 @@
 ---
 title: 'cmcc_simplerop'
 date: 2024-01-04 13:00:00 +0800
-categories: [int_0x80,bss,32bit]
-tags: [ctf,pwn]
+categories: [ctf,pwn]
+tags: [int_0x80,bss,32bit]
 ---
 ![image-20240104201935763](../assets/img/old_imgs/image-20240104201935763.png)
 
