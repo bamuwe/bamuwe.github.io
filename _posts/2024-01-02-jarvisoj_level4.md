@@ -1,7 +1,7 @@
 ---
-title: '{文件名}'
-date: 2024-11-11 13:00:00 +0800
-categories: [uaf,malloc_hook,unsortbin_leaklibc]
+title: 'jarvisoj_level4'
+date: 2024-01-02 13:00:00 +0800
+categories: [32bit,ret2libc]
 tags: [ctf,pwn]
 ---
 ![image-20240102230647469](../assets/img/old_imgs/image-20240102230647469.png)
