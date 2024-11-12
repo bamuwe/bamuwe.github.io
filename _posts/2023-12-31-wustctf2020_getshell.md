@@ -1,8 +1,8 @@
 ---
 title: 'wustctf2020_getshell'
 date: 2023-12-31 13:00:00 +0800
-categories: [ret2text]
-tags: [ctf,pwn]
+categories: [ctf,pwn]
+tags: [ret2text]
 ---
 ![image-20231231142431436](../assets/img/old_imgs/image-20231231142431436.png)
 
