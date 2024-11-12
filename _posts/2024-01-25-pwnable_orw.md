@@ -1,8 +1,8 @@
 ---
 title: 'pwnable_orw'
 date: 2024-01-25 13:00:00 +0800
-categories: [pwntools,shellcraft,shellcode,orw]
-tags: [ctf,pwn]
+categories: [ctf,pwn]
+tags: [pwntools,shellcraft,shellcode,orw]
 ---
 - `shellcraft`方法的使用
 
