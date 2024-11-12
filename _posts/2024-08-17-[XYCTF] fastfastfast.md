@@ -1,6 +1,9 @@
-# [XYCTF] fastfastfast
-
-`UAF`|`fast_bin_attack`|`tcache`|`leak_libc`
+---
+title: '[XYCTF] fastfastfast'
+date: 2024-08-17 13:00:00 +0800
+categories: [uaf,fast_bin_attack,tcache,leak_libc]
+tags: [ctf,pwn]
+---
 
 ```shell
 [*] '/home/bamuwe/fastfastfast/vuln'
@@ -77,7 +80,7 @@ def show(idx):
    free(7)
    ```
 
-   ![image-20240503134919203](./../../AppData/Roaming/Typora/typora-user-images/image-20240503134919203.png)
+   ![image-20240503134919203](../assets/img/old_imgs/image-20240503134919203.png)
 
    要利用`fastbin_attack`要先把`tcachebin`中的堆块利用
 
@@ -86,7 +89,7 @@ def show(idx):
        add(i,b'a')
    ```
 
-   ![image-20240503135100011](./../../AppData/Roaming/Typora/typora-user-images/image-20240503135100011.png)
+   ![image-20240503135100011](../assets/img/old_imgs/image-20240503135100011.png)
 
    ```python
    add(7,p64(0x4040A8))
@@ -94,7 +97,7 @@ def show(idx):
 
    修改`fd`为目标地址,关于这个地址后文说明
 
-   ![image-20240503135226136](./../../AppData/Roaming/Typora/typora-user-images/image-20240503135226136.png)
+   ![image-20240503135226136](../assets/img/old_imgs/image-20240503135226136.png)
 
    再申请三个堆块就可以得到目标`chunk`
 
@@ -140,7 +143,7 @@ def show(idx):
 
 这是存贮堆块列表的地址,即变量`note_addr`的地址,覆盖其上堆块内容,再打印出来
 
-![image-20240503140252580](./../../AppData/Roaming/Typora/typora-user-images/image-20240503140252580.png)
+![image-20240503140252580](../assets/img/old_imgs/image-20240503140252580.png)
 
 exp:
 
