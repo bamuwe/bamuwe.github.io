@@ -1,8 +1,8 @@
 ---
 title: 'HTB_pwn_rocket_blaster_xxx'
 date: 2024-11-07 13:00:00 +0800
-categories: []
-tags: [ctf,pwn]
+categories: [ctf,pwn]
+tags: []
 ---
 ```python
 from pwn import *
