@@ -1,8 +1,8 @@
 ---
 title: 'jarvisoj_level3'
 date: 2024-11-07 13:00:00 +0800
-categories: [32bit]
-tags: [ctf,pwn]
+categories: [ctf,pwn]
+tags: [32bit]
 ---
 ![image-20231229210336379](../assets/img/old_imgs/image-20231229210336379.png)
 
