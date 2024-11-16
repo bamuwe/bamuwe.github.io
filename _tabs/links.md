@@ -1,5 +1,5 @@
 ---
-title: Link
+layout: links
 icon: fas fa-link
 order: 5
 ---
