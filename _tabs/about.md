@@ -18,7 +18,7 @@ order: 4
 | N1nEmAn | [https://www.cnblogs.com/9man](https://www.cnblogs.com/9man) |
 | kerszl | [https://kerszl.github.io/](https://kerszl.github.io/) |
 | hgbe02 | [https://hgbe02.github.io/](https://hgbe02.github.io/) |
-| ba1100n | [http://ba1100n.tech/](http://ba1100n.tech/) |
+| ba1100n | [https://ba1100n.tech/](https://ba1100n.tech/) |
 | Flow | [https://lintian31.github.io/](https://lintian31.github.io/) |
 | baozongwi | [https://baozongwi.xyz/](https://baozongwi.xyz/) |
 
