@@ -152,7 +152,7 @@ tags: [apk,putty_session]
 
    ​	搜索发现解密脚本，附上链接:
 
-   ```python3
+   ```python
    import base64
    import sys
    from Crypto.Cipher import DES3
