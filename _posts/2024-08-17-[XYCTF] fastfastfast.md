@@ -1,5 +1,5 @@
 ---
-title: '[XYCTF] fastfastfast'
+title: '[xyctf] fastfastfast'
 date: 2024-08-17 13:00:00 +0800
 categories: [ctf,pwn]
 tags: [uaf,fast_bin_attack,tcache,leak_libc]
