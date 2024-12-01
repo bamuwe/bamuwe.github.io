@@ -1,7 +1,7 @@
 ---
 title: '[htb] Compiled'
 date: 2024-11-30 20:05 +0800
-categories: [hack,HackMyBox]
+categories: [hack,HackTheBox]
 tags: [windows]
 ---
 未完成❎
