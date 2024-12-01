@@ -1,7 +1,7 @@
 ---
 title: 'heackmyvmRegistry'
 date: 2024-11-07 13:00:00 +0800
-categories: [hack,HackmyVm]
+categories: [hack,HackMyVm]
 tags: []
 ---
 ### program
