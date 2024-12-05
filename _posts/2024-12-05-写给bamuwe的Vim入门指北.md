@@ -5,8 +5,6 @@ categories: [技术基建]
 tags: [Vim]
 ---
 
-# 写给bamuwe的Vim入门指北
-
 ---
 
 ​ 都2024年了，为什么还要学习使用Vim？
