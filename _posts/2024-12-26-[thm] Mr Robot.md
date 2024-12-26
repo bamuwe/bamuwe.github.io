@@ -13,7 +13,7 @@ tags: []
 > 端口扫描
 
 ![alt text](<../assets/img/2024-12-26-[thm] Mr Robot.assets/image-3.png>)
-这个页面有点炫酷，一开始搞得我还蛮尴尬，因为一上来就开扫，整的范围很大，一时间难以聚集攻击向量。啊拉巴拉不说，一口价，robots.txt
+这个页面有点炫酷，一开始搞得我还蛮尴尬，因为一上来就开扫，整的范围很大，一时间难以聚集攻击向量。啊拉巴拉不说，一口价，`robots.txt`
 
 ![alt text](<../assets/img/2024-12-26-[thm] Mr Robot.assets/image-4.png>)
 > wget http://10.10.51.179/fsocity.dic
@@ -22,11 +22,11 @@ tags: []
 ![alt text](<../assets/img/2024-12-26-[thm] Mr Robot.assets/image-5.png>)
 > 这个字典有大量的重复项。
 
-通过扫描可以看出这是一个wordpress站点，但是没有明显的1day。考虑对后台进行爆破。
+通过扫描可以看出这是一个`wordpress`站点，但是没有明显的1day。考虑对后台进行爆破。
 ![alt text](<../assets/img/2024-12-26-[thm] Mr Robot.assets/image-6.png>)
 
 跟他爆了！
-这里用的ffuf爆破，截图就省略了。使用先前获得的字典，用户名密码依次爆破，最后得到。
+这里用的`ffuf`爆破，截图就省略了。使用先前获得的字典，用户名密码依次爆破，最后得到。
 **elliot/ER28-0652**
 ![alt text](<../assets/img/2024-12-26-[thm] Mr Robot.assets/image-7.png>)
 得到后台，同时我们是`administrator`权限。
@@ -35,7 +35,7 @@ tags: []
 ## user1
 
 ![alt text](<../assets/img/2024-12-26-[thm] Mr Robot.assets/image-8.png>)
-修改404页面为php-reverse-shell.php
+修改`404`页面为`php-reverse-shell.php`
 ![alt text](<../assets/img/2024-12-26-[thm] Mr Robot.assets/image-9.png>)
 get shell.
 ![alt text](<../assets/img/2024-12-26-[thm] Mr Robot.assets/image-10.png>)
@@ -50,7 +50,7 @@ get shell.
 
 ## root
 
-suid-nmap一把梭。
+`suid-nmap`一把梭。
 ![alt text](<../assets/img/2024-12-26-[thm] Mr Robot.assets/image-13.png>)
 > own~
 
