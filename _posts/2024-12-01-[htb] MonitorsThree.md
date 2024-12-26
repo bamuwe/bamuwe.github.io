@@ -5,7 +5,7 @@ categories: [hack,HackTheBox]
 tags: []
 ---
 
-# information
+## information
 
 ```shell
 ╭─bamuwe@Mac ~/Desktop
@@ -21,7 +21,7 @@ PORT   STATE SERVICE
 Nmap done: 1 IP address (1 host up) scanned in 7.13 seconds
 ```
 
-# www-data
+## www-data
 
 ![alt text](<../assets/img/2024-12-01-[htb] MonitorsThree.assets/image.png>)
 > 网站截图
@@ -90,7 +90,7 @@ username=admin
 
 ![alt text](<../assets/img/2024-12-01-[htb] MonitorsThree.assets/image-3.png>)
 > 运行截图
-# marcus
+## marcus
 
 ![alt text](<../assets/img/2024-12-01-[htb] MonitorsThree.assets/image-4.png>)
 > :/var/www/html/cacti/include/config.php
@@ -117,7 +117,7 @@ $2y$10$Fq8wGXvlM3Le.5LIzmM9weFs9s6W2i1FLg3yrdNGmkIaxo79IBjtK:12345678910
 ![alt text](<../assets/img/2024-12-01-[htb] MonitorsThree.assets/image-6.png>)
 > 得到用户marcus
 
-# root
+## root
 
 ```shell
 marcus@monitorsthree:/var/www/html/cacti/include$ netstat -tunlp|grep 127.0.0.1
@@ -192,7 +192,7 @@ f62abaf8d1017898bed7335e21e9dd7d
 marcus@monitorsthree:~$
 ```
 
-# conclusion
+## conclusion
 - 考验信息收集能力，在立足点的突破中，不单单使用一个cve脚本一键提权，考察信息收集的思路，我们缺少什么信息，需要寻找什么信息。
 - 信息收集的关注点不仅仅在当前版本的漏洞中，历史的漏洞也应该浏览。
 - 有意思的靶机，特别是提权的部分，不依赖于现有的exp（本人脚本饺子🥟实锤）。

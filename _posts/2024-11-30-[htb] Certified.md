@@ -5,7 +5,7 @@ categories: [hack,HackTheBox]
 tags: [windows]
 ---
 
-# information
+## information
 
 ```shell
 ╭─bamuwe@Mac ~
@@ -66,7 +66,7 @@ Nmap done: 1 IP address (1 host up) scanned in 217.23 seconds
 
 ![image-20241130002332994](../assets/img/2024-11-29-%5Bhtb%5D%20Administrator/image-20241130002332994.png)
 
-# user1
+## user1
 
 - **user1: judith.mader / judith09**
 
@@ -188,7 +188,7 @@ Recovered NT Hash
 a091c1832bcdd4677c28b5a6a1295584
 ```
 
-# user2
+## user2
 
 - **user2: management / a091c1832bcdd4677c28b5a6a1295584**
 
@@ -229,7 +229,7 @@ The command completed successfully.
 The command completed successfully.
 ```
 
-# user3
+## user3
 
 - **user3: ca_operator / ca_operator**
 
@@ -304,7 +304,7 @@ Certipy v4.8.2 - by Oliver Lyak (ly4k)
 [*] Got hash for 'administrator@certified.htb': aad3b435b51404eeaad3b435b51404ee:0d5b49608bbce1751f708748f67e2d34
 ```
 
-# system
+## system
 
 ```shell
 ╭─bamuwe@Mac ~
@@ -324,7 +324,7 @@ e2ad0b78493dea395e21cf2b4fa6d0e5
 
 
 
-# conclusion
+## conclusion
 
 - Windows基础还是非常重要的，这个靶机就涉及到很多tgt？之类的凭据。
 - 攻击手法也非常多样，这个靶机就涉及到两个攻击手法，或许能够总结一下。

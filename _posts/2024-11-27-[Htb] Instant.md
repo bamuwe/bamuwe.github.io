@@ -5,7 +5,7 @@ categories: [hack,HackTheBox]
 tags: [apk,putty_session]
 ---
 
-# 一，信息收集
+## 一，信息收集
 
 1. **端口扫描**
 
@@ -81,7 +81,7 @@ tags: [apk,putty_session]
 
    ​	这里暴露出了许多`api`，爽啦！彻底爽啦！
 
-# 二，漏洞利用
+## 二，漏洞利用
 
 1. `api`利用
 
@@ -139,7 +139,7 @@ tags: [apk,putty_session]
    -----END OPENSSH PRIVATE KEY-----
    ```
 
-# 三，权限提升
+## 三，权限提升
 
 1. **网站`/opt`目录下存在一个`Solar-PuTTY`的`session`**
 
@@ -218,6 +218,6 @@ tags: [apk,putty_session]
    {"Sessions":[{"Id":"066894ee-635c-4578-86d0-d36d4838115b","Ip":"10.10.11.37","Port":22,"ConnectionType":1,"SessionName":"Instant","Authentication":0,"CredentialsID":"452ed919-530e-419b-b721-da76cbe8ed04","AuthenticateScript":"00000000-0000-0000-0000-000000000000","LastTimeOpen":"0001-01-01T00:00:00","OpenCounter":1,"SerialLine":null,"Speed":0,"Color":"#FF176998","TelnetConnectionWaitSeconds":1,"LoggingEnabled":false,"RemoteDirectory":""}],"Credentials":[{"Id":"452ed919-530e-419b-b721-da76cbe8ed04","CredentialsName":"instant-root","Username":"root","Password":"12**24nzC!r0c%q12","PrivateKeyPath":"","Passphrase":"","PrivateKeyContent":null}],"AuthScript":[],"Groups":[],"Tunnels":[],"LogsFolderDestination":"C:\\ProgramData\\SolarWinds\\Logs\\Solar-PuTTY\\SessionLogs"}
    ```
 
-# 四，总结
+## 四，总结
 
 - 渗透的本质是信息收集，好的信息收集是成功的一半，在这个靶机体现的非常到位。同时也想吐槽一下，mac上的安卓模拟器（mumu）一定要开vip才给用有点难受了，好兄弟们有什么好的平替send to my email please～

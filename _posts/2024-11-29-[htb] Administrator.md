@@ -5,7 +5,7 @@ categories: [hack,HackTheBox]
 tags: [windows]
 ---
 
-# information
+## information
 
 ```shell
 ╭─bamuwe@Mac ~/Documents
@@ -50,7 +50,7 @@ Nmap done: 1 IP address (1 host up) scanned in 192.74 seconds
 > 官网提供了user1的账号密码
 
 
-# user1
+## user1
 
 - **user1：Olivia/ichliebedich**
 
@@ -102,7 +102,7 @@ INFO: Compressing output into 20241129200107_bloodhound.zip
 The command completed successfully.
 ```
 
-# user2
+## user2
 - **user2:michael/michael**
 
 ![image-20241129203619487](../assets/img/2024-11-29-%5Bhtb%5D%20Administrator/image-20241129203619487.png)
@@ -126,7 +126,7 @@ rpcclient $> setuserinfo2 benjamin 23 benjamin
 rpcclient $>
 ```
 
-# user3
+## user3
 
 **user3:benjamin/benjamin**
 
@@ -247,7 +247,7 @@ Stopped: Fri Nov 29 21:07:42 2024
 
 一下子得到了三个用户的账号密码。
 
-# user4
+## user4
 
 - **user:emily/UXLCI5iETUsIBoFVTj8yQFKoHjXmb**
 
@@ -358,7 +358,7 @@ Started: Fri Nov 29 22:18:19 2024
 Stopped: Fri Nov 29 22:18:31 2024
 ```
 
-# user5
+## user5
 
 - **user5:ethan/limpbizkit**
 
@@ -428,7 +428,7 @@ DC$:des-cbc-md5:f483547c4325492a
 
 获得administrator的hash凭据。
 
-# system
+## system
 
 ```shell
 ╭─bamuwe@Mac ~/Desktop
@@ -444,6 +444,6 @@ Info: Establishing connection to remote endpoint
 *Evil-WinRM* PS C:\Users\Administrator\Documents>
 ```
 
-# conclusion
+## conclusion
 
 - Windows 靶机还是挺有意思的，但是需要对ad的运作方式有更多的了解。

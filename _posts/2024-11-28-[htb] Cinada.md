@@ -5,7 +5,7 @@ categories: [hack,HackTheBox]
 tags: [windows,sebackupprivilege]
 ---
 
-# information
+## information
 
 1. **端口扫描**
 
@@ -93,7 +93,7 @@ tags: [windows,sebackupprivilege]
 
    ​	获得一个`CICADA-DC.cicada.htb`的域名。靶机开启了`smb`服务
    
-# foothold
+## foothold
 
    ```shell
    ╭─bamuwe@Mac ~
@@ -217,7 +217,7 @@ Info: Establishing connection to remote endpoint
 cicada\emily.oscars
 ```
 
-# system
+## system
 
 查看用户所有权限：
 
