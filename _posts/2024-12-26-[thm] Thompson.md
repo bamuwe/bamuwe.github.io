@@ -61,9 +61,6 @@ id > test.txt
 
 > own~
 
-
-
 ## conclusion
 
 - 注重思路的同时要注意细节。这个靶机两个点都与细节有关，`cancel`一个，`sh`脚本权限一个。
-
