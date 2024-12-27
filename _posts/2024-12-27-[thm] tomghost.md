@@ -1,3 +1,10 @@
+---
+title: '[thm] tomghost'
+date: 2024-12-27 19:15 +0800
+categories: [hack,TryHackMe]
+tags: []
+---
+
 ## information
 
 ![image-20241227191947986](../assets/img/2024-12-27-[thm]%20tomghost.assets/image-20241227191947986.png)
