@@ -78,3 +78,8 @@ md5爆破
 ## conclution
 
 - 比较考验基本功，一直枚举
+- rce的源代码其实也是可以通过枚举得到
+  - ![alt text](<../assets/img/2024-12-29-[thm] UltraTech.assets/image-23.png>)
+- 为什么rce那部分不能直接反弹shell呢？
+  - 因为在反弹shell后原来的命令处于阻塞状态，没法返回。
+  - ![alt text](<../assets/img/2024-12-29-[thm] UltraTech.assets/image-22.png>)
