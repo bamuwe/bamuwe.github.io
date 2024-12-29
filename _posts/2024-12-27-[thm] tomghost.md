@@ -25,7 +25,7 @@ msf可以直接利用，可美了我了，网页上直接显示了账号密码�
 
 ## user1
 
-**skyfuck:8730281lkjlkjdqlksalks**
+user1/**skyfuck:8730281lkjlkjdqlksalks**
 
 ![image-20241227192205901](../assets/img/2024-12-27-[thm]%20tomghost.assets/image-20241227192205901.png)
 
@@ -33,11 +33,11 @@ msf可以直接利用，可美了我了，网页上直接显示了账号密码�
 
 存在两个文件，下载下来，参考下面这篇文章做一个破解。
 
-https://www.cnblogs.com/jhinjax/p/17058557.html
+<https://www.cnblogs.com/jhinjax/p/17058557.html>
 
 ![image-20241227190459289](../assets/img/2024-12-27-[thm]%20tomghost.assets/image-20241227190459289.png)
 
->  alexandru
+> alexandru
 
 ![image-20241227190904179](../assets/img/2024-12-27-[thm]%20tomghost.assets/image-20241227190904179.png)
 
@@ -45,15 +45,13 @@ https://www.cnblogs.com/jhinjax/p/17058557.html
 
 ## user2
 
-**merlin:asuyusdoiuqoilkda312j31k2j123j1g23g12k3g12kj3gk12jg3k12j3kj123j **
+user2/**merlin:asuyusdoiuqoilkda312j31k2j123j1g23g12k3g12kj3gk12jg3k12j3kj123j**
 
 存在suid的zip提权
 
 ![image-20241227191050657](../assets/img/2024-12-27-[thm]%20tomghost.assets/image-20241227191050657.png)
 
-> https://gtfobins.github.io/gtfobins/zip/
-
-
+> <https://gtfobins.github.io/gtfobins/zip/>
 
 ## conclusion
 
