@@ -13,7 +13,7 @@ tags: []
 ![alt text](<../assets/img/2025-01-25-[thm] TryHack3M_Bricks_Heist.assets/image-16.png>)
 
 通过网站icon发现是wordpress网站，可以使用wpscan扫描。这里我直接用nuclei扫描了。
-上次打靶机的时候群友用了一次nuclei，发现效率挺高的哈哈（不是偷懒）
+上次打靶机的时候群友用了一次nuclei，发现效率挺高的哈哈~~（不是偷懒）~~
 
 ![alt text](<../assets/img/2025-01-25-[thm] TryHack3M_Bricks_Heist.assets/image-2.png>)
 
@@ -83,7 +83,7 @@ Answer:**bc1qyk79fcp9hd5kreprce89tkh4wrtl8avt4l67qa**
 
 ![alt text](<../assets/img/2025-01-25-[thm] TryHack3M_Bricks_Heist.assets/image-11.png>)
 
-看到最开始有一笔11btc的交易。说实话，有点馋，这11btc打我钱包里我直接躺平了吧（maybe）
+看到最开始有一笔11btc的交易。~~说实话，有点馋，这11btc打我钱包里我直接躺平了吧（maybe）~~
 得到交易id$50a89a628a6620216dca19f1221c138982601810fd60677ac7612a01999ae028$
 
 ![alt text](<../assets/img/2025-01-25-[thm] TryHack3M_Bricks_Heist.assets/image-12.png>)
