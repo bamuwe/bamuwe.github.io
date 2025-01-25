@@ -81,7 +81,7 @@ Answer:**bc1qyk79fcp9hd5kreprce89tkh4wrtl8avt4l67qa**
 
 在小小的链上掏啊掏啊掏。开玩笑的，掏不来一点!
 
-[alt text](<../assets/img/2025-01-25-[thm] TryHack3M_Bricks_Heist.assets/image-11.png>)
+![alt text](<../assets/img/2025-01-25-[thm] TryHack3M_Bricks_Heist.assets/image-11.png>)
 
 看到最开始有一笔11btc的交易。说实话，有点馋，这11btc打我钱包里我直接躺平了吧（maybe）
 得到交易id$50a89a628a6620216dca19f1221c138982601810fd60677ac7612a01999ae028$
