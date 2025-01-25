@@ -1,7 +1,7 @@
 ---
 title: '[thm] Silver Platter'
 date: 2025-01-16 22:54 +0800
-categories: [Hack,TryHackMe]
+categories: [hack,TryHackMe]
 tags: []
 ---
 
