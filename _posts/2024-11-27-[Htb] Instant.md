@@ -1,5 +1,5 @@
 ---
-title: '[Htb] Insant'
+title: '[htb] Insant'
 date: 2024-11-27 13:58 +0800
 categories: [hack,HackTheBox]
 tags: [apk,putty_session]
