@@ -1,9 +1,9 @@
----
+<!-- ---
 title: '[PG] Cockpit'
 date: 2025-04-06 19:37 +0900
 categories: [hack,PG]
 tags: [sql]
----
+--- -->
 
 ## information
 
