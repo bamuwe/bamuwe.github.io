@@ -26,5 +26,11 @@
   // Run tasks in macOS
   "terminal.integrated.profiles.osx": {
     "zsh": { "path": "/bin/zsh", "args": ["-l", "-i"] }
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[php]": {
+    "editor.defaultFormatter": "DEVSENSE.phptools-vscode"
   }
 }
