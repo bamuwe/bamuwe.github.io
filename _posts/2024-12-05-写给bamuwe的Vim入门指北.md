@@ -1,7 +1,7 @@
 ---
 title: '写给bamuwe的Vim入门指北'
 date: 2024-12-05 14:34 +0800
-categories: [tools]
+categories: [tecniq]
 tags: [Vim]
 ---
 
